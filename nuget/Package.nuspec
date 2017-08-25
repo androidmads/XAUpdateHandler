@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UpdateHandler</id>
+    <version>1.0.0</version>
+    <authors>Mushtaq</authors>
+    <owners>Mushtaq</owners>
+    <licenseUrl>https://bitbucket.org/mushtaq_m_a/xaupdatehandler</licenseUrl>
+    <projectUrl>https://bitbucket.org/mushtaq_m_a/xaupdatehandler</projectUrl>
+    <iconUrl>https://lh3.googleusercontent.com/-8awtMI1rwkE/V2VAjxHDxCI/AAAAAAAAAG4/LVNkDQHM4A4GXlWVxAWV_h9WcGnrZ1qMACEw/w140-h140-p/ic_launcher.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin Android Auto Updater</description>
+    <releaseNotes>Xamarin Android Auto Updater from Play Store.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>AutoUpdater Xamarin Android</tags>
+    <dependencies>
+      <dependency id="Jsoup" version="1.0.0" />
+    </dependencies>
+  </metadata>
+    <files>
+      <file src="..\UpdateHandlerLibrary\bin\Release\UpdateHandlerLibrary.dll" target="lib\UpdateHandlerLibrary.dll" />
+    </files>
+</package>
