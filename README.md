@@ -8,6 +8,7 @@ Open the Package Manager Console and Paste the following to download the nuget p
 ```csharp
 PM> Install-Package UpdateHandler -Version 1.0.0
 ```
+If the nuget is not compatible to your project, then you can download and include the directly from [here](https://github.com/androidmads/XAUpdateHandler/tree/master/dll)
 # How to Use
 You can use the following code to use Update Handler in Xamarin.Android
 ```csharp
